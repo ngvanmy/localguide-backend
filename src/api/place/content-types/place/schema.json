@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "places",
+  "info": {
+    "singularName": "place",
+    "pluralName": "places",
+    "displayName": "Places"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "AmThuc"
+      ]
+    },
+    "SubCategory": {
+      "type": "string"
+    },
+    "Latitude": {
+      "type": "decimal"
+    },
+    "Longitude": {
+      "type": "decimal"
+    },
+    "OpenHours": {
+      "type": "string"
+    },
+    "TicketPrice": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "AttireRules": {
+      "type": "string"
+    },
+    "ImageUrl": {
+      "type": "string"
+    },
+    "AudioUrl": {
+      "type": "string"
+    }
+  }
+}
